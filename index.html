@@ -33,7 +33,7 @@
           return (
             <div>
               <h2>{props.children}</h2>
-              <button className="edit" onClick={this.edit}>Edit</button>
+              <button className="edit" onClick={()=>this.edit()}>Edit</button>
               <button className="delete" onClick={this.delete}>Delete</button>
               <p>Total edit clicked {this.state.totalEditCount}</p>
             </div>
