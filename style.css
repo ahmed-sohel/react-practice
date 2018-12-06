@@ -1,0 +1,18 @@
+.container{
+	color: #fff;
+	padding: 10px;
+	background-color: #000;
+}
+
+button{
+	padding: 15px;
+	font-size: 24px;
+}
+
+.edit{
+	background-color: green;
+}
+
+.delete{
+	background-color: red;
+}
